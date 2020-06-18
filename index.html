@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Leafy</title>
+  <link rel="stylesheet" type="text/css" href="css/experiment.css">
+ 
+</head>
+<body>
+  <nav>
+
+    <h4 class='heading'>Leafy</h4>
+    
+    <ul class='navbar'>
+        <li class='it'><a href="#">Home</a></li>
+        <li class='it'><a href="#">About</a></li>
+        <li class='it'><a href="#">Contact</a></li>
+        <li class='it'><a href="#">More</a></li>
+    </ul>
+    <div class= 'burger'>
+      <div class='line1'></div>
+      <div class='line2'></div>
+      <div class='line3'></div>
+    </div>
+</nav>
+<header>
+<div id='wrapper'>
+  <h1 class='title'>List of Businesses</h1>
+  <br>
+  <p>Businesses Available Today</p>
+  <br>
+  <form id='search-business'>
+    <input type="text" placeholder='Search for Businesses...'/>
+  </form>
+</div>
+</header>
+<div id='business-list'>
+  <h2 class='title'>Businesses Available</h2>
+<ul>
+  <li>
+
+    <span class='name'>Nails</span>
+    <span class='delete'>delete</span>
+  </li>
+  <li>
+    <span class='name'>Cosmetics Nation</span>
+    <span class='delete'>delete</span>
+  </li>
+  <li>
+
+    <span class='name'>Beauty and Nails</span>
+    <span class='delete'>delete</span>
+  </li>
+  <li>
+    <span class='name'>Cosmetics</span>
+    <span class='delete'>delete</span>
+  </li>
+</ul>
+<div>
+  <form id='add-business'>
+    <input type="checkbox" id='hide'>
+    <label for='hide'>Hide all businesses</label>
+    <br>
+    <input type="text" placeholder='Add a business'>
+    <button>Add</button>
+  </form>
+</div>
+</div>
+
+  <script src="./server.js"></script>
+</body>
+</html>
